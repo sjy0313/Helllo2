@@ -1,0 +1,28 @@
+연습문제 
+
+인터페이스(객체가 아니므로 생성자 사용불가/ 자식클래스는 부모 인터페이스의 추상 메소드를 모두 오버라이딩해야함.)
+극단적으로 동일한 목적 하에 동일한 기능을 수행하게끔 강제하는 것이 바로 인터페이스의 역할이자 개념
+자바의 다형성을 극대화하여 개발코드 수정을 줄이고 프로그램 유지보수성을 높이기 위해 인터페이스를 사용
+
+Constant : 인터페이스에서 값을 정해줄테니 함부로 바꾸지 말고 제공해주는 값만 참조해라 (절대적)
+abstract method : 가이드만 줄테니 추상메소드를 오버라이팅해서 재구현해라. 
+(강제적 : 인터페이스를 implements 하지 않으면 피할수는 있기에 절대적은 아님.)
+default method : 인터페이스에서 기본적으로 제공해주지만, 맘에 안들면 각자 구현해서 써라. (선택적)
+static method : 인터페이스에서 제공해주는 것으로 무조건 사용 (절대적)
+
+public interface RemoteControl {
+	int MAX_VOLUME = 10;
+	int MIN_VOLUME = 0;
+
+	void turnOn();
+	void turnOff();
+	//void setVolume(int volume);
+	public abstract void setVolume(int volume)
+	
+문제 : 
+1. 인터페이스 RemoteControl를 구현한 하나의 클래스를(RemoteControlImpl) : 실체화(Realization)
+RemoteControlImpl을 상속하여 하위 클래스들을 정의  : 일반화(Generalization) 
+- Audio 
+- Projection
+- Television
+RemoteControlImpl 클래스에서 하위 클래스들에서 사용할 공통 기능을 구현
