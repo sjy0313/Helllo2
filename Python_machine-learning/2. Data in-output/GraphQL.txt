@@ -1,0 +1,4 @@
+GraphQL (객체지향 프로그래밍)
+JSON(=Data format) + API
+제우스 WAS (data를 주고받을 떄 쓰는 포멧) web application server
+java enterprise user solution
