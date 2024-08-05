@@ -7,7 +7,7 @@ F : Feeling 감정유형
 3. 데이터로 설득하라(창의성)
 
 데이터를 모델링하라
--개별 모델링
+-개별 모델링(entity identification / understanding relations)
 -물리 모델링
 -도구활용 : DBMS, ERD
 데이터의 흐롬을 파악하라 (DFD[data flow diagram] / 시계열데이터) -> 체계화(수학/통계적 접근필요)
