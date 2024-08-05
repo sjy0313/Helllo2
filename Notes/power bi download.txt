@@ -1,0 +1,10 @@
+[데이터 시각화와 탐색 with POWER BI]
+https://powerbi.microsoft.com/ko-kr/getting-started-with-power-bi/
+교재파일 
+https://www.youngjin.com/book/book_detail.asp?prod_cd=9788931467611&seq=7189&cate_cd=1&child_cate_cd=6&goPage=1&orderByCd=1&searchType=Y&keyword1=POWER%20BI
+Flutter 
+다트 & 플러터(cross platform) (모바일 ios(Shift o to c/android(java), window/linux(c or c++)desktop)
+책 소스코드( 이지스 퍼블리싱) 
+http://www.easyspub.co.kr/30_Menu/DataList/PUB
+인공지능 platform 한국에 존재x 기반이 필요 
+https://en.wikipedia.org/wiki/List_of_countries_and_dependencies_by_population

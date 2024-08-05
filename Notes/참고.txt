@@ -1,0 +1,4 @@
+6-2 enhanced 
+# line142-151 for (loop)문을 활용한 subplot 그리기
+6-2 enhanced accumulate
+# line164-189 누적그래프(stacked area graph) 출력하기 
